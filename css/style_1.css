@@ -182,8 +182,7 @@ html {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
  }
- .services .rows ,
- .portfolio .row {
+ .services .rows {
      display: grid;
      grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
      grid-gap: 30px;
@@ -216,10 +215,12 @@ html {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
     grid-gap: 30px;
-    margin: 8%;
+    padding-top: calc(var(--section-padding) + 10px );
 }
  .portfolio .item{
      background-color: white;
+     width: 90%;
+     justify-self: center;
      
 
  }
